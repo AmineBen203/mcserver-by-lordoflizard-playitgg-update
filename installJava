@@ -79,6 +79,12 @@ install_server () {
     cd JavaInstallScripts
     chmod +x *
     ./BungeecordInstall
+	
+  elif [[ $choice == 8 ]];then
+    echo "> Installing Bukkit..."
+    cd JavaInstallScripts
+    chmod +x *
+    ./BukkitInstall
 
   
  # Invaild Input
